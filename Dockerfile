@@ -1,4 +1,4 @@
 FROM tomcat
-COPY target/demo-1.0.0.jar usr/local/tomcat/webapps/ROOT.jar
-COPY target/demo-1.0.0 usr/local/tomcat/webapps/ROOT
+COPY demo-0.0.1-SNAPSHOT.jar usr/local/tomcat/webapps/ROOT.jar
+COPY demo-0.0.1-SNAPSHOT usr/local/tomcat/webapps/ROOT
 EXPOSE 8080
